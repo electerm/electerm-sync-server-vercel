@@ -7,9 +7,9 @@ A simple electerm data sync server for Vercel, written with nodejs/ts, data stor
 fork this project to your own account or org and deployed to [Vercel.com](https://Vercel.com), put proper env in project env setting:
 
 ```env
-JWT_SECRET=283hsdfye@!2@9oijnjSwda09
+JWT_SECRET=somesecretverycomplicated!@#
 JWT_USERS=username1,username2,xxxx,hhhh
-DB_URL=mongodb+srv://yourusername:xxxxx@cluster0.yyyyy.mongodb.net/electerm_sync_dev?retryWrites=true&w=majority
+DB_URL=mongodb+srv://yourusername:xxxxx@cluster0.yyyyy.mongodb.net/electerm_sync_custom_db_name?retryWrites=true&w=majority
 ```
 
 ## Dev
@@ -17,8 +17,13 @@ DB_URL=mongodb+srv://yourusername:xxxxx@cluster0.yyyyy.mongodb.net/electerm_sync
 ```bash
 npm i
 npm i vercel -g
-cp sample.env .env.local
+cp sample.env .env
+
+## local dev
 vercel dev
+
+## deploy
+vercel deploy
 ```
 
 ## License
