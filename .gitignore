@@ -106,3 +106,5 @@ dist
 /temp/
 /src/store.js
 /electerm-sync.json
+.vercel
+.env.local
