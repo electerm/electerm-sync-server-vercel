@@ -4,7 +4,7 @@ A simple electerm data sync server for Vercel, written with nodejs/ts, data stor
 
 ## Use
 
-fork this project to your own account or org and deployed to [Vercel.com](https://Vercel.com), put proper env in project env setting:
+fork this project to your own account or org and deployed to [Vercel.com](https://Vercel.com), put proper env in project env setting:(get mongodb url from [[cloud.mongodb.com](https://cloud.mongodb.com/))
 
 ```env
 JWT_SECRET=somesecretverycomplicated!@#
