@@ -6,6 +6,8 @@ A simple electerm data sync server for Vercel, written with nodejs/ts, data stor
 
 fork this project to your own account or org and deployed to [Vercel.com](https://Vercel.com), put proper env in project env setting:(get mongodb url from [[cloud.mongodb.com](https://cloud.mongodb.com/))
 
+![electerm-vercel-env-setting](https://github.com/electerm/electerm-sync-server-vercel/assets/1641949/66032c6f-ffa8-491a-9a73-eb5a795d8e7c)
+
 ```env
 JWT_SECRET=some_secret_very_complicated
 JWT_USERS=username1,username2,xxxx,hhhh
