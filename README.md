@@ -14,6 +14,12 @@ JWT_USERS=username1,username2,xxxx,hhhh
 DB_URL=mongodb+srv://yourusername:xxxxx@cluster0.yyyyy.mongodb.net/electerm_sync_custom_db_name?retryWrites=true&w=majority
 ```
 
+![electerm-vercel-sync](https://github.com/electerm/electerm-sync-server-vercel/assets/1641949/4c409f66-ce94-40bc-a128-fd02c3467962)
+
+- Set `https://your-vercel-domain.vercel.app/api/sync` as your sync server url in electerm sync form.
+- Set `JWT_SECRET` as your sync JWT SECRET in electerm sync form.
+- Set one of `JWT_USERS` as your sync User ID in electerm sync form.
+
 ## Dev
 
 ```bash
